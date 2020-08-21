@@ -1,0 +1,13 @@
+From centos:latest
+sudo wget -O /etc/yum.repos.d/jenkins.repo \
+    https://pkg.jenkins.io/redhat-stable/jenkins.repo
+run rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+run yum-config-manager \
+    --add-repo \
+    https://download.docker.com/linux/centos/docker-ce.repo
+run yum install yum-utils jenkins java-1.8.0-openjdk-devel wget net-tools git python3 docker-ce docker-ce-cli containerd.io -y
+run echo "jenkins ALL=(ALL) NOPASSED:ALL" >> /etc/sudoers
+cmd java -jar /usr/lib/jenkins/jenkins.war
+
+
+
