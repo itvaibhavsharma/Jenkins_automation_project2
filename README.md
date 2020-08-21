@@ -19,38 +19,38 @@ if app is not working , then send email to developer with error messages.
 Create One extra job job5 for monitor : If container where app is running. fails due to any reson then this job should automatically startthe container again.
 
 ***Creating jenkins DockerFile**
-![Pic1](image/1.png)
+![Pic1](images/1.png)
 **Creating image form DockerFile**
-![Pic2](image/2.png)
+![Pic2](images/2.png)
 
 **Starting jenkins docker image**
 In this step we link docker from continer to base system
-![Pic2](image/11.png)
+![Pic2](images/11.png)
 
 **Installing Required extensions**
-![Pic2](image/12.png)
+![Pic2](images/12.png)
 **Getting Ip and fire up the browser**
-![Pic2](image/4.png)
+![Pic2](images/4.png)
 
 **Getting the Initial Password**
-![Pic2](image/2.png)
+![Pic2](images/2.png)
 
 **Initial Page**
-![Pic2](image/7.png)
-![Pic2](image/8.png)
+![Pic2](images/7.png)
+![Pic2](images/8.png)
 
 **Job1 GitSync Job**
-![Pic2](image/9.png)
-![Pic2](image/10.png)
+![Pic2](images/9.png)
+![Pic2](images/10.png)
 
 **Job2 **
-![Pic2](image/16.png)
+![Pic2](images/16.png)
 
 **Job3**
-![Pic2](image/17.png)
+![Pic2](images/17.png)
 
 **Job4 Email job**
-![Pic2](image/14.png)
+![Pic2](images/14.png)
 
 **Result**
-![Pic2](image/re.png)
+![Pic2](images/re.png)
